@@ -6,6 +6,9 @@ html, body {
 }
 
 h1 {
+  font-style: italic;
+  font-family: 'Lobster';
+  text-align: center;
   font-size: 48px;
 }
 
@@ -25,21 +28,28 @@ div {
   width: 100%;
 }
 
-video {
-  background-color: #000000;
-  border: 2px solid black;
-}
 
 .whole {
   display: flex;
 }
 
 .main {
+  text-align:justify;
+  font-size: 20px;
+  font-style: italic;
+  background-image: url("http://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg");
+  background-size: cover;
   padding-left: 30px;
   min-width: 75%;
 }
 
 .list {
+  font-size: 20px;
+  text-align: left;
+  font-style: italic;
+  font-family: 'Chewy',cursive;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd72fivorROnLsap72h1YevnYAmlMNXLD--JWR-I0YB8MWMJvjrg");
+  background-size: cover;
   background-color: #0000FF;
   max-width: 25%;
   min-width: 140px;
@@ -48,4 +58,18 @@ video {
 
 .list h1 {
   padding-left: 20px;
+}
+
+#link{
+  font-size: 30px;
+  font-family: 'Chewy',fantasy;
+  cursor: pointer;
+  color:#280409;
+}
+
+h3{
+  text-align: center;
+  font-family: 'Chewy',cursive;
+  font-style: italic;
+  color:#380232;
 }
